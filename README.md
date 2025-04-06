@@ -1,6 +1,6 @@
 # DeepFlow: Network Traffic Classification Simulation using CNN and LSTM
 
-**DeepFlow** is a deep learning-based simulation project designed to classify network traffic types using CNN and LSTM architectures. It utilizes publicly available datasets and does **not** require physical network recording or real-time traffic capture.
+**DeepFlow** is a deep learning-based simulation project designed to classify network traffic types using CNN and LSTM architectures. It utilizes publicly available datasets and does **not** require physical network recording or real-time traffic capture.DeepFlow is a deep learning-based simulation project for classifying network traffic patterns using CNN and LSTM architectures. It is trained on the UNSW-NB15 dataset, which captures a diverse mix of benign and malicious traffic scenarios. This allows DeepFlow to operate entirely offline, without requiring real-time packet capture or physical network monitoring.
 
 This project builds a full pipeline—from preprocessing to evaluation—to compare deep learning models on flow-based network traffic data.
 
