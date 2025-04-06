@@ -1,0 +1,30 @@
+
+Evaluation Result for CNN:
+
+              precision    recall  f1-score   support
+
+      Normal       1.00      0.57      0.73     37000
+      Attack       0.74      1.00      0.85     45332
+
+    accuracy                           0.81     82332
+   macro avg       0.87      0.79      0.79     82332
+weighted avg       0.86      0.81      0.80     82332
+
+Confusion Matrix:
+[[21260 15740]
+ [   95 45237]]
+
+Evaluation Result for LSTM:
+
+              precision    recall  f1-score   support
+
+      Normal       0.99      0.59      0.74     37000
+      Attack       0.75      0.99      0.85     45332
+
+    accuracy                           0.81     82332
+   macro avg       0.87      0.79      0.79     82332
+weighted avg       0.86      0.81      0.80     82332
+
+Confusion Matrix:
+[[21681 15319]
+ [  245 45087]]

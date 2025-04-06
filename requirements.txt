@@ -1,0 +1,23 @@
+# Data & Preprocessing
+pandas
+numpy
+scikit-learn
+
+# Visualisasi
+matplotlib
+seaborn
+
+# Deep Learning (Pilih salah satu)
+tensorflow
+# torch
+# torchvision
+
+# Jupyter & dev
+jupyter
+notebook
+
+# Interpretability (opsional)
+shap
+
+# Logging & YAML config
+pyyaml

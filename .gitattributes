@@ -1,0 +1,18 @@
+# Auto-normalize line endings
+* text=auto
+
+# Jupyter notebooks - treat as binary to avoid noisy diffs
+*.ipynb binary
+
+# Model & data artifacts - no diff
+*.h5 binary
+*.model binary
+*.pt binary
+*.pth binary
+*.csv diff=none
+*.log diff=none
+
+# OS/IDE-specific
+*.DS_Store binary
+*.db binary
+*.egg-info/ export-ignore
