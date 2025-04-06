@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+env/
+*.env
+
+# Logs and results
+*.log
+*.csv
+*.h5
+*.pth
+*.pt
+*.model
+
+# Dataset
+data/raw/
+data/processed/
+data/split/
+
+# OS
+.DS_Store
+Thumbs.db
