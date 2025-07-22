@@ -1,10 +1,10 @@
-# 📊 Evaluation Summary – CNN vs LSTM (UNSW-NB15)
+# Evaluation Summary – CNN vs LSTM (UNSW-NB15)
 
 This summary compares the performance of CNN and LSTM models trained for network traffic classification using flow-based features.
 
 ---
 
-## 🧪 Accuracy Curve
+## Accuracy Curve
 
 - **CNN** achieves higher validation accuracy than LSTM across most epochs.
 - **LSTM** improves steadily but never surpasses CNN.
@@ -13,7 +13,7 @@ This summary compares the performance of CNN and LSTM models trained for network
 
 ---
 
-## 📉 Loss Curve
+## Loss Curve
 
 - **CNN** maintains lower validation loss throughout training.
 - **LSTM** starts with high loss and improves, but is more **sensitive** (slightly noisier curve).
@@ -22,7 +22,7 @@ This summary compares the performance of CNN and LSTM models trained for network
 
 ---
 
-## ✅ Model Comparison Table
+## Model Comparison Table
 
 | Aspect             | CNN                         | LSTM                        |
 |--------------------|------------------------------|-----------------------------|
@@ -30,11 +30,11 @@ This summary compares the performance of CNN and LSTM models trained for network
 | Val Accuracy       | Higher across most epochs    | Slightly lower overall      |
 | Train/Val Loss     | Lower, consistent            | Higher & more variable      |
 | Convergence Speed  | Faster                       | Slower                      |
-| Stability          | ✅ Smooth curve              | ⚠️ Slight fluctuation       |
+| Stability          | Smooth curve                 | Slight fluctuation       |
 
 ---
 
-## 💡 Conclusion
+## Conclusion
 
 > **CNN outperforms LSTM** in this setup on UNSW-NB15, offering better accuracy, faster convergence, and more stable learning behavior.  
 > For flow-based tabular data like this, **CNN is a strong and lightweight baseline** that performs reliably without requiring sequential modeling.
