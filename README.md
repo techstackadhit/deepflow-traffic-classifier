@@ -6,7 +6,7 @@ This project builds a full pipeline—from preprocessing to evaluation—to comp
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 deepflow-traffic-classifier/
@@ -45,7 +45,7 @@ deepflow-traffic-classifier/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 - Build deep learning models (CNN and LSTM) for traffic classification
 - Simulate a full ML pipeline using public datasets
 - Compare model accuracy, generalization, and efficiency
@@ -83,14 +83,14 @@ All datasets are stored under data/raw/.
 
 ---
 
-## 🧪 Experiments
+## Experiments
 - CNN 1D (3–4 layers) vs LSTM (1–2 layers)
 - Feature selection using EDA insights
 -  Stratified data split from training-dataset: 80% train, 20% val
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 - Accuracy
 - F1-Score
 - Confusion Matrix
@@ -98,7 +98,7 @@ All datasets are stored under data/raw/.
 
 ---
 
-## 🛠️ Tools
+## Tools
 - Python 3.8+
 - NumPy, Pandas, Matplotlib, Seaborn
 - Scikit-learn
@@ -107,7 +107,7 @@ All datasets are stored under data/raw/.
 
 ---
 
-## 👤 Author / Credits
+## Author / Credits
 
 - **Author**: Aditya Arya Putranda
 - **Year**: 2025  
@@ -115,7 +115,7 @@ All datasets are stored under data/raw/.
 
 ---
 
-## 📄 License
+## License
 This project is licensed under the MIT License. Feel free to use, modify, and share.
 
 ---
